@@ -1,0 +1,51 @@
+/* Page de connexion wp-login.php aux couleurs d'Icone. */
+body.login {
+	background: #efece5;
+	font-family: Lato, "Helvetica Neue", Arial, sans-serif;
+	color: #272b2e;
+}
+.login h1 a {
+	width: 300px;
+	height: 102px;
+	background-size: contain;
+	background-position: center;
+}
+.login form {
+	border: 0;
+	box-shadow: none;
+	padding: 30px;
+}
+.login label { font-size: 15px; }
+.login input[type="text"],
+.login input[type="password"],
+.login input[type="email"] {
+	border-radius: 0;
+	border-color: #e0dacb;
+	background: rgba(239, 236, 229, .5);
+	box-shadow: none;
+}
+.login input[type="text"]:focus,
+.login input[type="password"]:focus {
+	border-color: #868279;
+	box-shadow: 0 0 0 1px #868279;
+}
+.wp-core-ui .button-primary {
+	background: #868279;
+	border-color: #868279;
+	border-radius: 0;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-size: 12px;
+	padding: 0 20px;
+}
+.wp-core-ui .button-primary:hover,
+.wp-core-ui .button-primary:focus {
+	background: #2a2e31;
+	border-color: #2a2e31;
+}
+.login #nav a,
+.login #backtoblog a { color: #272b2e; }
+.login #nav a:hover,
+.login #backtoblog a:hover { color: #cc4670; }
+.login .message,
+.login .notice { border-left-color: #868279; }

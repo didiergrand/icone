@@ -1,0 +1,17 @@
+<!-- wp:template-part {"slug":"header","tagName":"header","className":"icone-site-header"} /-->
+
+<!-- wp:group {"tagName":"main","className":"icone-main","layout":{"type":"constrained"}} -->
+<main class="wp-block-group icone-main"><!-- wp:group {"className":"icone-titre-page","layout":{"type":"constrained","contentSize":"1170px"}} -->
+<div class="wp-block-group icone-titre-page"><!-- wp:query-title {"type":"archive","textAlign":"center","showPrefix":false} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:query {"queryId":10,"query":{"perPage":100,"pages":0,"offset":0,"postType":"case","order":"desc","orderBy":"date","inherit":true},"className":"icone-liste-conferences"} -->
+<div class="wp-block-query icone-liste-conferences"><!-- wp:post-template -->
+<!-- wp:post-title {"level":2,"isLink":true} /-->
+
+<!-- wp:post-excerpt {"excerptLength":20} /-->
+<!-- /wp:post-template --></div>
+<!-- /wp:query --></main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","tagName":"footer","className":"icone-site-footer"} /-->

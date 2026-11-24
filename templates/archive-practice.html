@@ -1,0 +1,15 @@
+<!-- wp:template-part {"slug":"header","tagName":"header","className":"icone-site-header"} /-->
+
+<!-- wp:group {"tagName":"main","className":"icone-main","layout":{"type":"constrained"}} -->
+<main class="wp-block-group icone-main"><!-- wp:group {"className":"icone-titre-page","layout":{"type":"constrained","contentSize":"1170px"}} -->
+<div class="wp-block-group icone-titre-page"><!-- wp:query-title {"type":"archive","textAlign":"center","showPrefix":false} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:query {"queryId":11,"query":{"perPage":100,"pages":0,"offset":0,"postType":"practice","order":"desc","orderBy":"date","inherit":true},"className":"icone-liste-consultations"} -->
+<div class="wp-block-query icone-liste-consultations"><!-- wp:post-template {"layout":{"type":"grid","columnCount":2}} -->
+<!-- wp:post-title {"level":2,"isLink":true} /-->
+<!-- /wp:post-template --></div>
+<!-- /wp:query --></main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","tagName":"footer","className":"icone-site-footer"} /-->

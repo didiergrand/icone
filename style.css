@@ -1,0 +1,15 @@
+/*
+Theme Name:        Icone
+Theme URI:         https://icone-consultation-notariale.ch
+Description:       Thème de l'Institut de consultation notariale (Icone). Thème à blocs indépendant, sans constructeur de page ni plugin requis. Reprend le design du site 2018 (thème O'Connor).
+Author:            Icone – Institut de consultation notariale Sàrl
+Version:           1.2.0
+Requires at least: 6.5
+Tested up to:      7.1
+Requires PHP:      7.4
+License:           GNU General Public License v2 or later
+License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:       icone
+*/
+
+/* Les styles sont dans theme.json et assets/css/theme.css. */
